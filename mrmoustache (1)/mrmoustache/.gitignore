@@ -1,0 +1,70 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ============================
+# Regras Adicionais para Java/Spring Boot
+# ============================
+
+# Arquivos de propriedades com dados sensíveis
+# Mantém o application.properties local mas não envía para o Git
+src/main/resources/application.properties
+
+# Arquivos de log
+*.log
+logs/
+temp.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~
+
+# Arquivos de configuração de ambiente
+.env
+.env.local
+*.env
+
+# Arquivos de cache
+.cache/
+*.classpath
+
+# Arquivos de build personalizados
+/out/
+/bin/
